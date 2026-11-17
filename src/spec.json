@@ -1,0 +1,241 @@
+{
+  "title": "Gestione corsi di formazione",
+  "description": "Catalogo interno navigabile per consultare corsi, gestire le sessioni e monitorare i posti disponibili. Tutti i dati sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Stato del catalogo e delle prossime sessioni formative.",
+      "metrics": [
+        {
+          "label": "Corsi attivi",
+          "value": "12"
+        },
+        {
+          "label": "Sessioni in programma",
+          "value": "8"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "47"
+        },
+        {
+          "label": "Iscrizioni",
+          "value": "96"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Fondamenti di cartografia",
+          "Lumo Verri",
+          "Officina Nubi",
+          "12/05/2026",
+          "8"
+        ],
+        [
+          "Scrittura chiara",
+          "Vela Tersi",
+          "Atelier Lume",
+          "18/05/2026",
+          "4"
+        ],
+        [
+          "Gestione dei progetti",
+          "Nubi Ralen",
+          "Studio Brina",
+          "22/05/2026",
+          "6"
+        ],
+        [
+          "Dati e decisioni",
+          "Lira Mondo",
+          "Officina Nubi",
+          "29/05/2026",
+          "3"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "catalogo-corsi",
+      "title": "Catalogo corsi",
+      "description": "Cerca e filtra i corsi disponibili; i dati di tabella supportano la ricerca e il filtro per area formativa.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Area formativa",
+        "Docente",
+        "Organizzazione",
+        "Durata",
+        "Livello"
+      ],
+      "rows": [
+        [
+          "Fondamenti di cartografia",
+          "Competenze digitali",
+          "Lumo Verri",
+          "Officina Nubi",
+          "6 ore",
+          "Base"
+        ],
+        [
+          "Scrittura chiara",
+          "Comunicazione",
+          "Vela Tersi",
+          "Atelier Lume",
+          "4 ore",
+          "Base"
+        ],
+        [
+          "Gestione dei progetti",
+          "Organizzazione",
+          "Nubi Ralen",
+          "Studio Brina",
+          "8 ore",
+          "Intermedio"
+        ],
+        [
+          "Dati e decisioni",
+          "Competenze digitali",
+          "Lira Mondo",
+          "Officina Nubi",
+          "6 ore",
+          "Intermedio"
+        ],
+        [
+          "Facilitazione dei gruppi",
+          "Collaborazione",
+          "Tera Solvi",
+          "Casa Vapore",
+          "5 ore",
+          "Avanzato"
+        ],
+        [
+          "Archivi ben ordinati",
+          "Organizzazione",
+          "Rilo Vanti",
+          "Atelier Lume",
+          "3 ore",
+          "Base"
+        ]
+      ],
+      "form": [
+        "Corso",
+        "Area formativa",
+        "Docente",
+        "Organizzazione",
+        "Durata",
+        "Livello"
+      ]
+    },
+    {
+      "id": "sessioni",
+      "title": "Sessioni e posti",
+      "description": "Consulta le date delle sessioni, i posti prenotati e la disponibilità residua. Tabella filtrabile per corso e stato.",
+      "metrics": [
+        {
+          "label": "Sessioni future",
+          "value": "8"
+        },
+        {
+          "label": "Posti totali",
+          "value": "143"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "47"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data",
+        "Posti totali",
+        "Iscritti",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Fondamenti di cartografia",
+          "Lumo Verri",
+          "Officina Nubi",
+          "12/05/2026",
+          "18",
+          "10",
+          "8",
+          "Aperta"
+        ],
+        [
+          "Scrittura chiara",
+          "Vela Tersi",
+          "Atelier Lume",
+          "18/05/2026",
+          "16",
+          "12",
+          "4",
+          "Aperta"
+        ],
+        [
+          "Gestione dei progetti",
+          "Nubi Ralen",
+          "Studio Brina",
+          "22/05/2026",
+          "20",
+          "14",
+          "6",
+          "Aperta"
+        ],
+        [
+          "Dati e decisioni",
+          "Lira Mondo",
+          "Officina Nubi",
+          "29/05/2026",
+          "15",
+          "12",
+          "3",
+          "Aperta"
+        ],
+        [
+          "Facilitazione dei gruppi",
+          "Tera Solvi",
+          "Casa Vapore",
+          "04/06/2026",
+          "18",
+          "18",
+          "0",
+          "Completa"
+        ],
+        [
+          "Archivi ben ordinati",
+          "Rilo Vanti",
+          "Atelier Lume",
+          "09/06/2026",
+          "16",
+          "8",
+          "8",
+          "Aperta"
+        ]
+      ],
+      "form": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data",
+        "Posti totali",
+        "Iscritti",
+        "Posti disponibili",
+        "Stato"
+      ]
+    }
+  ]
+}
